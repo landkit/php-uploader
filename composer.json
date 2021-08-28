@@ -1,0 +1,26 @@
+{
+    "name": "landkit/php-uploader",
+    "type": "library",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/landkit/php-uploader",
+    "authors": [
+        {
+            "name": "Land Kit",
+            "email": "landkit.packages@gmail.com",
+            "homepage": "https://github.com/landkit"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LandKit\\Uploader\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0|^8.0",
+        "landkit/php-functions": "^1.0",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    }
+}
